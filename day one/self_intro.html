@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://via.placeholder.com/150" alt="My Photo">
+    <h1>Hello, I'm [Your Name]!</h1>
+    <p>I'm a web development enthusiast. I love coding, design, and technology.</p>
+
+    <button onclick="showContact()">Contact Me</button>
+    <p id="contact" style="display: none;">Email: youremail@example.com</p>
+
+    <script>
+        function showContact() {
+            document.getElementById('contact').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
